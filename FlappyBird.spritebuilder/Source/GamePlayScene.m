@@ -11,6 +11,8 @@
     // creation of flappy bird character
     character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild: character];
+    [self addObstacle];
+    
     
 }
 
