@@ -18,6 +18,11 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 @interface GamePlayScene : CCNode <CCPhysicsCollisionDelegate>
 {
     // define variables here;
+    // deinition of nodes to be implemented in .m
+    // nodes are stacked based on heirachy
+    
+    Character*      character;
+    CCPhysicsNode*  physicsNode;
 }
 
 -(void) initialize;
