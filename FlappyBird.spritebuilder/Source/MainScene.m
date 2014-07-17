@@ -50,7 +50,6 @@
 }
 
 #pragma mark - Touch Handling
-
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     if (!_gameOver) {
         [character.physicsBody applyAngularImpulse:10000.f];
