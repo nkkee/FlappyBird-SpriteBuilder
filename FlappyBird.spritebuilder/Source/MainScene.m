@@ -143,6 +143,8 @@
         }
     }
     
+    NSLog(@"Obstacles get off screen: %i", [_obstacles count]);
+    
     NSMutableArray *offScreenObstacles = nil;
     
     for (CCNode *obstacle in _obstacles) {
